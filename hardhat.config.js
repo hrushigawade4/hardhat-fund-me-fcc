@@ -4,16 +4,16 @@ require("@nomicfoundation/hardhat-toolbox")
 require("hardhat-deploy")
 
 const COINMARKETCAP_API_KEY =
-    process.env.COINMARKETCAP_API_KEY || "e3c68407-eafb-4e4a-b106-eb142ec52af1"
+    process.env.COINMARKETCAP_API_KEY || ""
 // const KOVAN_RPC_URL = process.env.KOVAN_RPC_URL || ""
 const RINKEBY_RPC_URL =
     process.env.RINKEBY_RPC_URL ||
-    "https://eth-rinkeby.alchemyapi.io/v2/4w_jItmDPz_n5ESK3rKRTHJu6SgcXnOj"
+    ""
 const PRIVATE_KEY =
     process.env.PRIVATE_KEY ||
-    "10d00f127e5f5ba5ba477c79c3c9cf3b9980fdfe0259c0bc3e2966b3d123422d"
+    ""
 const ETHERSCAN_API_KEY =
-    process.env.ETHERSCAN_API_KEY || "E1S9YSRAYB3371KNXD42EZFJJRWZYEKYWH"
+    process.env.ETHERSCAN_API_KEY || ""
 
 module.exports = {
     // solidity: "0.8.8",
